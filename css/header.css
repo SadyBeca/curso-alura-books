@@ -18,6 +18,7 @@
 .cabecalho__container{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .cabecalho__container__esq {
@@ -28,4 +29,15 @@
 .cabecalho__container__dir {
     padding: 0;
     /* border: solid red; */
+}
+
+.lista-menu {
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
 }
