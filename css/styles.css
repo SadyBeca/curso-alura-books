@@ -9,3 +9,8 @@ body {
     background-color: var(--cor-de-fundo);
     text-decoration: none;
 }
+
+.lista-menu, .lista-menu.item {
+    background-color: var(--cor-branca);
+    padding: 1em;
+}
