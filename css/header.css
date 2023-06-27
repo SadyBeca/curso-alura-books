@@ -27,6 +27,8 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 65vw;
+    font-family: var(--);
     /* border: solid red; */
 }
 

@@ -1,8 +1,14 @@
 @import url("/css/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --cor-de-fundo: #C4C4C4;
     --cor-branca: #FFFFFF;
+    --cor-laranja: #EB9B00;
+
+    --fonte-16: 1rem;
+
+    --fonte-Poppins: 'Poppins', sans-serif;
 }
 
 body {
@@ -10,7 +16,3 @@ body {
     text-decoration: none;
 }
 
-.lista-menu, .lista-menu.item {
-    background-color: var(--cor-branca);
-    padding: 1em;
-}
