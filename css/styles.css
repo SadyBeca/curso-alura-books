@@ -5,10 +5,13 @@
     --cor-de-fundo: #C4C4C4;
     --cor-branca: #FFFFFF;
     --cor-laranja: #EB9B00;
+    --cor-azul: #002F52;
 
     --fonte-16: 1rem;
 
-    --fonte-Poppins: 'Poppins', sans-serif;
+    --fonte-poppins: 'Poppins', sans-serif;
+
+    --peso-700: 700;
 }
 
 body {

@@ -28,7 +28,7 @@
     position: absolute;
     top: 100%;
     width: 65vw;
-    font-family: var(--);
+    font-family: var(--fonte-poppins);
     /* border: solid red; */
 }
 
@@ -36,7 +36,25 @@
     display: block;
 }
 
-.lista-menu, .lista-menu.item {
+.lista-menu, .lista-menu__item {
     background-color: var(--cor-branca);
-    padding: 1em;
+    padding: 1rem;
+    /* border: solid red; */
+}
+
+.lista-menu__titulo {
+    color: var(--cor-laranja);
+    font-size: var(--fonte-16);
+    font-weight: var(--peso-700);
+    padding: 1rem;
+    /* border: solid red; */
+}
+
+.lista-menu__link {
+    color: var(--cor-azul);
+    font-size: var(--fonte-16);
+    text-decoration: none;
+    padding: 1rem 0 1rem 0;
+    text-transform: uppercase;
+    /* border: solid red; */
 }
