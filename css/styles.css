@@ -12,10 +12,13 @@
     --fonte-poppins: 'Poppins', sans-serif;
 
     --peso-700: 700;
+    --peso-500: 500;
+    --peso-300: 300;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     text-decoration: none;
+    font-family: var(--fonte-poppins);
 }
 

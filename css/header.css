@@ -1,8 +1,8 @@
 .cabecalho {
     background-color: var(--cor-branca);
-    /* padding: 0; */
     display: flex;
     justify-content: space-between;
+    font-family: var(--fonte-poppins);
     /* border: solid red; */
 }
 
@@ -13,6 +13,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0.5rem;
 }
 
 .cabecalho__container{
@@ -23,12 +24,15 @@
     
 }
 
+.container__botao{
+    display: none;
+}
+
 .lista-menu {
     display: none;
     position: absolute;
     top: 100%;
     width: 65vw;
-    font-family: var(--fonte-poppins);
     /* border: solid red; */
 }
 
@@ -57,4 +61,8 @@
     padding: 1rem 0 1rem 0;
     text-transform: uppercase;
     /* border: solid red; */
+}
+
+.cabecalho__container__usuario {
+    margin: 0 0.5rem 0 0;
 }
