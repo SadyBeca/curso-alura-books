@@ -2,7 +2,7 @@
     background-color: var(--cor-branca);
     display: flex;
     justify-content: space-between;
-    font-family: var(--fonte-poppins);
+    /* font-family: var(--fonte-poppins); */
     padding: 2% 0;
     /* border: solid red; */
 }
@@ -56,7 +56,7 @@
 }
 
 .lista-menu__link {
-    color: var(--cor-azul);
+    color: var(--cor-azul-degrade);
     font-size: var(--fonte-16);
     text-decoration: none;
     padding: 1rem 0 1rem 0;
