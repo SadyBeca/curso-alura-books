@@ -2,7 +2,6 @@
     background-color: var(--cor-branca);
     display: flex;
     justify-content: space-between;
-    /* font-family: var(--fonte-poppins); */
     padding: 2% 0;
     /* border: solid red; */
 }
