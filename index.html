@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AluraBooks</title>
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        
     </head>
     <body>
         <header class="cabecalho">
@@ -47,6 +49,44 @@
                 <p class="banner__paragrafo">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
                 <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
             </section>
+            <section>
+                <h2 class="carrossel">Últimos Lançamentos</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                                        
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                                    
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="/img/ApacheKafka.svg" alt="Livro sobre Apache Kafka da Alura Books"></div>
+                        <div class="swiper-slide"><img src="/img/Liderança.svg" alt="Livro sobre Liderança em Design da Alura Books"></div>
+                        <div class="swiper-slide"><img src="/img/Javascript.svg" alt="Livro sobre JavaScript Assertivo da Alura Books"></div>
+                        <div class="swiper-slide"><img src="/img/Acessibilidade.svg" alt="Livro sobre Acessibilidade na Web da Alura Books"></div>
+                        <div class="swiper-slide"><img src="/img/Guia Front-end.svg" alt="Livro sobre Guia Front-End da Alura Books"></div>
+                        <div class="swiper-slide"><img src="/img/Nodejs.svg" alt="Livro sobre Construindo APIs REST com Node.js da Alura Books"></div>
+                    </div>                    
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                                
+                </div>
+            </section>
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                    spaceBetween: 10,
+                    slidesPerView: 3,
+                    pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                    },
+                });
+
+                
+        </script>    
     </body>
 </html>
