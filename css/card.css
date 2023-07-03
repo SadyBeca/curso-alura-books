@@ -1,0 +1,59 @@
+.card {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 3%;
+    display: flex;
+    padding: 1em;
+    /* border: solid red; */
+}
+
+.card__coluna-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.card__coluna-1__titulo-secao {
+    font-size: var(--fonte-16);
+    color: var(--cor-laranja);
+    font-weight: var(--peso-700);
+}
+
+.card__coluna-1__titulo-livro {
+    font-size: var(--fonte-18);
+    color: var(--cor-azul);
+    font-weight: var(--peso-700);
+}
+
+.card__coluna-1__paragrafo {
+    font-size: var(--fonte-14);
+    color: var(--cor-preto);
+}
+
+.card__coluna-1__icones {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__coluna-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card__coluna-2__angular {
+    width: auto;
+}
+
+.card__coluna-2__saiba-mais {
+    text-decoration: none;
+    font-size: var(--fonte-16);
+    font-weight: var(--peso-700);
+    color: var(--cor-branca);
+    text-align: center;
+    background-color: var(--cor-laranja);
+    padding: 8%;
+}
