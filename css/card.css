@@ -44,8 +44,9 @@
     gap: 1em;
 }
 
-.card__coluna-2__angular {
+.card__coluna-2__imagem {
     width: auto;
+    height: auto;
 }
 
 .card__coluna-2__saiba-mais {
@@ -56,4 +57,8 @@
     text-align: center;
     background-color: var(--cor-laranja);
     padding: 8%;
+}
+
+.card__coluna-1__estrelas {
+    width: 60%;
 }

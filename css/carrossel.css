@@ -20,3 +20,14 @@
 .swiper-button-prev, .swiper-button-next {
     display: none;
 }
+
+.carrossel__mais-vendidos {
+    background-color: var(--cor-branca);
+    color: var(--cor-amarela);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--fonte-18);
+    font-weight: var(--peso-700);
+    padding: 4% 0 1.5% 0;
+    position: relative;
+}
