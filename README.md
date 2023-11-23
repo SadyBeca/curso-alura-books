@@ -6,8 +6,9 @@
 | ------------| --- |
 | :sparkles: Nome        | **Loja Alura Books**
 | :label: Tecnologias | Figma, HTML e CSS (tecnologias utilizadas)
-| :rocket: URL         | [Link para o GitHub Pages](https://sadybeca.github.io/curso-alura-books/)
+| :rocket: URL         | [Link para a página do GitHub Pages (Clique aqui!)](https://sadybeca.github.io/curso-alura-books/)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![alura-books](https://github.com/SadyBeca/curso-alura-books/assets/134239560/be0186d2-a688-4b3b-b5f9-06bc5fc7651d#vitrinedev)
+
 
